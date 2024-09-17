@@ -43,7 +43,7 @@ const Rolldice = ({Currentdice,Change,setScore}) => {
     <div>
       <Container>
         <div onClick={()=>Change()}>
-        <img className="dice" src={`./images/dice_${Currentdice}.png`} alt="img" />
+        <img className="dice" src={`./public/dice_${Currentdice}.png`} alt="img" />
         </div>
         <p>Click on Dice to roll</p>
         <button onClick={()=>{setScore(0)}} >Reset Score</button>
