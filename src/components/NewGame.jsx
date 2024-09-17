@@ -40,7 +40,7 @@ const Button=styled.button`
 const NewGame = ({toggle}) => {
   return (
     <Container>
-      <img src="images/dices 1.png" alt="img" />
+      <img src="./images/dices 1.png" alt="img" />
       <div className='content'>
         <h1>DICE GAME</h1>
         <Button onClick={toggle}>Play Now</Button>
